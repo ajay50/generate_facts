@@ -1,0 +1,16 @@
+moviepy==1.0.3
+gTTS~=2.5.4
+requests~=2.32.4
+pydub
+python-dotenv~=1.1.1
+google-auth-oauthlib~=1.2.2
+google-api-python-client~=2.177.0
+google-generativeai
+Pillow~=11.3.0
+schedule~=1.2.2
+elevenlabs~=2.8.1
+slugify
+openai~=0.28.0
+google-genai
+
+protobuf~=5.29.5
