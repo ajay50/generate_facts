@@ -4,11 +4,12 @@ import time
 from datetime import datetime
 from dotenv import load_dotenv
 
+
 from utils.text_generator import init_gemini, load_prompts, generate_text, generate_hook_and_fact
 from utils.image_creator import generate_image_with_text
 from utils.video_creator import create_video
 from utils.uploader import generate_title_desc, upload_to_youtube
-from youtube_bot.utils.topic_generator import generate_viral_topic
+from utils.topic_generator import generate_viral_topic
 
 # Setup
 load_dotenv()
