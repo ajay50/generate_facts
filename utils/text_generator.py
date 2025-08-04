@@ -2,7 +2,7 @@
 import google.generativeai as genai
 import random
 
-from youtube_bot.utils.topic_generator import generate_viral_topic
+from utils.topic_generator import generate_viral_topic
 
 
 def init_gemini(api_key):
