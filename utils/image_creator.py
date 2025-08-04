@@ -5,7 +5,7 @@ from PIL import Image
 import google.generativeai as genai
 from google.genai import types
 
-from youtube_bot.utils.handle_image import download_image_from_gemini
+from utils.handle_image import download_image_from_gemini
 
 
 def create_image_prompt_with_gemini(text, gemini_api_key):
